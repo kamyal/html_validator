@@ -70,6 +70,5 @@ def _extract_tags(html):
         if start != -1 and end != -1:
             tags.append(html[start: end+1])
         else:
-            return []
             break
     return tags
