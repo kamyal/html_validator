@@ -12,7 +12,6 @@ def validate_html(html):
     >>> validate_html('<strong>example')
     False
     '''
-
     # HINT:
     # use the _extract_tags function below to generate
     # a list of html tags without any extra text;
