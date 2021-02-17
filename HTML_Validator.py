@@ -71,4 +71,5 @@ def _extract_tags(html):
             tags.append(html[start: end+1])
         else:
             break
+            return []
     return tags
